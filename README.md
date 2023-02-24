@@ -8,3 +8,5 @@ Press 1 for new game and 2 to exit game
 
 To run test cases:
 ````npm run test````
+
+node version v18.14.2
