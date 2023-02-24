@@ -1,2 +1,2 @@
 # nodejs-cardgame
-A nodejs app for card game.
+A nodejs and typescript based card game.
