@@ -74,11 +74,11 @@ export class GameCards {
     console.log("Player 1 won", this.playerOneWinCount, "rounds");
     console.log("Player 2 won", this.playerTwoWinCount, "rounds");
     if (this.playerOneWinCount > this.playerTwoWinCount) {
-      console.log("Player 1 wins the game");
+      console.log("Player 1 wins the game\n");
     } else if (this.playerOneWinCount < this.playerTwoWinCount) {
-      console.log("Player 2 wins the game");
+      console.log("Player 2 wins the game\n");
     } else {
-      console.log("The game is a tie");
+      console.log("The game is a tie\n");
     }
   }
 
