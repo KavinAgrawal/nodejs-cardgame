@@ -1,17 +1,12 @@
-
 {
-    "compilerOptions": {
-      "target": "es6",
-      "esModuleInterop": true,
-      "module": "commonjs",
-      "outDir": "dist",
-      "sourceMap": true,
-      "moduleResolution": "node"
-    },
-    "include": [
-      "lib/*.ts"
-    ],
-    "exclude": [
-      "node_modules"
-    ]
-  }
+  "compilerOptions": {
+    "target": "es6",
+    "esModuleInterop": true,
+    "module": "commonjs",
+    "outDir": "dist",
+    "sourceMap": true,
+    "moduleResolution": "node"
+  },
+  "include": ["lib/*.ts"],
+  "exclude": ["node_modules", "lib/*.test.ts"]
+}
